@@ -1,0 +1,71 @@
+
+.buttonDem{
+	border: 0;
+	background-color: tomato;
+	color: white;
+	padding: 1.5%;
+	width: 25%;
+	height: 5%;
+	font-weight: bold;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	cursor: pointer;
+}
+
+td {
+  border: solid tomato 2px;
+  width: 25px;
+  height: 25px;
+	font-size: 14px;
+	color : white;
+}
+
+#containerGamePlate {
+  display: flex;
+  justify-content: center;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 0px;
+}
+
+#gameScreen {
+	padding: 0px;
+	margin: 0px;
+}
+
+.unknownCells {
+  background-color: grey;
+}
+
+.trapedCells {
+  background-color: red;
+}
+
+.safeCells {
+  background-color: #cc0000;
+}
+
+table {
+	margin: auto;
+}
+
+.scoreTables {
+	color : white;
+	font-size: 15px;
+	background-color: tomato;
+	padding: 2%;
+	border: solid tomato 2px;
+	border-radius: 20px;
+}
+
+.timerStyle {
+	border: 2px solid tomato;
+	border-radius: 20px;
+	color : white;
+	background-color: tomato;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding : 5px;
+}
